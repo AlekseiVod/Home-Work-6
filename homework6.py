@@ -6,7 +6,7 @@ print(my_dict['Masha'])
 my_dict.update({'Alex': 2004,
                 'Irina': 1998})
 print(my_dict)
-del my_dict['Pety']
+my_dict.pop('Pety')
 print(my_dict)
 
 my_set = {1,1,1,1,7,7,5.6,7,7,7,'Roma','Roma','Roma','Roma','Fedy','Fedy','Fedy',1,True,1,True,5,5,5.6,5.6,5,5}
